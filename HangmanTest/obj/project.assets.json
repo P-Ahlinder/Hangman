@@ -1808,6 +1808,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Hangman/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Hangman.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangman.dll": {}
+        }
       }
     }
   },
@@ -6103,10 +6113,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Hangman/1.0.0": {
+      "type": "project",
+      "path": "../Hangman/Hangman.csproj",
+      "msbuildProject": "../Hangman/Hangman.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Hangman >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6145,7 +6161,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj": {
+              "projectPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
