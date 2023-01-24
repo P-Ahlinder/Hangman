@@ -2,14 +2,14 @@
 using PrintRightWords;
 using HangManWriter;
 using GenerateRandomWord;
+
 namespace Hangman
 {
-    internal class Program
+    public class Program
     {
-
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            
             Console.WriteLine("Welcome to Hangman!!!!!");
             Console.WriteLine("=======================");
 
