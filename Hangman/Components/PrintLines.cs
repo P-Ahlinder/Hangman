@@ -1,15 +1,18 @@
-namespace PrintRandomWords
+namespace PrintLines
 {
-    public class PrintRandomWord
+    public class SetUnderLines
     {
-        public static void printLines(String randomWord)
+        public static string PrintLines(String randomWord)
         {
             Console.Write("\r");
             foreach (char c in randomWord)
             {
                 Console.OutputEncoding = System.Text.Encoding.Unicode;
                 Console.Write("\u0305 ");
+
+                
             }
+            return randomWord;
         }
     }
 

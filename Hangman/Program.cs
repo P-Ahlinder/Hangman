@@ -1,7 +1,9 @@
-﻿using PrintRandomWords;
+﻿using PrintLines;
 using PrintRightWords;
 using HangManWriter;
 using GenerateRandomWord;
+using System.Text.RegularExpressions;
+
 namespace Hangman
 {
     internal class Program
@@ -10,8 +12,10 @@ namespace Hangman
 
         static void Main(string[] args)
         {
+
             Console.WriteLine("Welcome to Hangman!!!!!");
             Console.WriteLine("=======================");
+            
 
             string randomWord = WordGenerator.GetaWord();
             foreach (char x in randomWord)
@@ -34,13 +38,14 @@ namespace Hangman
                 }
                 Console.Write("\nGuess a letter: ");
                 char letterGuessed = Console.ReadLine()[0];
+              
 
                 if (currentLettersGuessed.Contains(letterGuessed))
                 {
                     Console.Write("\r\n You have already guessed this letter");
                     HangManPrinter.WriteHangMan(amountOfTimesWrong);
                     currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
-                    PrintRandomWord.printLines(randomWord);
+                    SetUnderLines.PrintLines(randomWord);
                 }
                 else
                 {
@@ -53,7 +58,7 @@ namespace Hangman
                         currentLettersGuessed.Add(letterGuessed);
                         currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
-                        PrintRandomWord.printLines(randomWord);
+                        SetUnderLines.PrintLines(randomWord);
 
                     }
                     else
@@ -63,7 +68,7 @@ namespace Hangman
                         HangManPrinter.WriteHangMan(amountOfTimesWrong);
                         currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
-                        PrintRandomWord.printLines(randomWord);
+                        SetUnderLines.PrintLines(randomWord);
                         Console.Write("\r\n");
                         Console.WriteLine("Wrong letter try again!");
                     }

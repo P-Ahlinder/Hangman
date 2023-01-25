@@ -45,7 +45,7 @@ namespace HangManWriter
                 Console.WriteLine("  +-----+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
-                Console.WriteLine("//|      |");
+                Console.WriteLine(" /|      |");
                 Console.WriteLine("         |");
                 Console.WriteLine("==========");
             }

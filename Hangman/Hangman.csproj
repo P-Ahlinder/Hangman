@@ -5,4 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Components\PrintRandomWord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Components\PrintLines" />
+  </ItemGroup>
 </Project>
