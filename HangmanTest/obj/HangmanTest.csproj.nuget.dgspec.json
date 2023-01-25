@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahlin\\Desktop\\Hangman\\HangmanTest\\HangmanTest.csproj": {}
+    "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\HangmanTest\\HangmanTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahlin\\Desktop\\Hangman\\HangmanTest\\HangmanTest.csproj": {
+    "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\HangmanTest\\HangmanTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahlin\\Desktop\\Hangman\\HangmanTest\\HangmanTest.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\HangmanTest\\HangmanTest.csproj",
         "projectName": "HangmanTest",
-        "projectPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\HangmanTest\\HangmanTest.csproj",
-        "packagesPath": "C:\\Users\\ahlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\HangmanTest\\obj\\",
+        "projectPath": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\HangmanTest\\HangmanTest.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\HangmanTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ahlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj": {
-                "projectPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj"
+              "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\Hangman.csproj": {
+                "projectPath": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\Hangman.csproj"
               }
             }
           }
@@ -90,21 +85,17 @@
         }
       }
     },
-    "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj": {
+    "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\Hangman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\Hangman.csproj",
         "projectName": "Hangman",
-        "projectPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\Hangman.csproj",
-        "packagesPath": "C:\\Users\\ahlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahlin\\Desktop\\Hangman\\Hangman\\obj\\",
+        "projectPath": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\Hangman.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\Programmering\\C#\\Inlämning C#\\Hangman\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ahlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,7 +103,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
