@@ -11,7 +11,7 @@ namespace HangManWriter
                 Console.WriteLine(" o      |");
                 Console.WriteLine("/|\\    |");
                 Console.WriteLine("/ \\    |");
-                Console.WriteLine("==========");
+                Console.WriteLine("=========");
             }
             if (wrong == 6)
             {
@@ -42,7 +42,7 @@ namespace HangManWriter
             }
             if (wrong == 3)
             {
-                Console.WriteLine("  +-----+");
+                Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
                 Console.WriteLine(" /|      |");
@@ -51,7 +51,7 @@ namespace HangManWriter
             }
             if (wrong == 2)
             {
-                Console.WriteLine("  +-----+");
+                Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
                 Console.WriteLine("  |      |");
@@ -60,23 +60,22 @@ namespace HangManWriter
             }
             if (wrong == 1)
             {
-                Console.WriteLine("  +-----+");
+                Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
-                Console.WriteLine("  o      |");
+                Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("==========");
             }
             if (wrong == 0)
             {
-                Console.WriteLine("  +-----+");
-                Console.WriteLine("  |      |");
+                Console.WriteLine("  +------+");
+                Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("==========");
             }
         }
-
     }
 }
