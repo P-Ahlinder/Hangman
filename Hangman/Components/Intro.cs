@@ -13,8 +13,9 @@ namespace Introdution
             Console.WriteLine("Game rules: ");
             Console.WriteLine("You have to guess the word below you have, you have 7 chances. Good Luck! ");
             Console.WriteLine("=======================");
-            Console.WriteLine();
-          
+            Console.WriteLine("Enter a letter from a-z");
+            Console.WriteLine("=======================");
+
         }
     }
 }

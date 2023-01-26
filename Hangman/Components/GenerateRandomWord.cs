@@ -7,12 +7,12 @@ namespace GenerateRandomWord
             Random random = new Random();
             List<string> wordDictionay = new List<string>
                 {
-                "Pizza",
-                "Kebabtallrik",
-                "Kaffekopp",
-                "Tandpetare",
-                "Blomma",
-                "Kyrka",
+                "pizza",
+                "Kebab",
+                "sunshine",
+                "lighthouse",
+                "flower",
+                "church",
                 };
             int index = random.Next(wordDictionay.Count);
             String randomWord = wordDictionay[index];

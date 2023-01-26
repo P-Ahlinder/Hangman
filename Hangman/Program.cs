@@ -3,6 +3,7 @@ using PrintRightWords;
 using HangManWriter;
 using GenerateRandomWord;
 using Introdution;
+using System.Text.RegularExpressions;
 
 namespace Hangman
 {
@@ -11,7 +12,7 @@ namespace Hangman
         static void Main(string[] args)
         {
             do
-            {  
+            {
                 Intro.GameIntroduction();
                 HangManPrinter.WriteHangMan();
                 Console.WriteLine();
