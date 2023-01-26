@@ -31,7 +31,7 @@ namespace PrintRightWord
             Assert.Contains(guessedLetter, randomWord);
 
             output.WriteLine(randomWord);
-            output.WriteLine(guessedLetter); ;
+            output.WriteLine(guessedLetter); 
         }
     }
 }
