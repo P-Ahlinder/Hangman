@@ -16,11 +16,6 @@ $ git clone https://github.com/P-Ahlinder/Hangman.git
 $ cd Hangman
 ```
 
-Then run this to install all necessary dependencies:
-
-```sh
-```
-
 In order to run tests simply run
 
 ```py
