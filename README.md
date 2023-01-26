@@ -23,6 +23,7 @@ Then run this to install all necessary dependencies:
 In order to run tests simply run
 
 ```py
+[![.NET](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml/badge.svg)](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml)
 $ dotnet test
 
 ```
