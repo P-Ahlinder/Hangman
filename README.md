@@ -1,4 +1,5 @@
 ## Hangman Console APP by Natanael Augustin & Per Ahlinder
+[![.NET](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml/badge.svg)](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml)
 
 ## Description:
 
@@ -23,9 +24,7 @@ Then run this to install all necessary dependencies:
 In order to run tests simply run
 
 ```py
-[![.NET](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml/badge.svg)](https://github.com/P-Ahlinder/Hangman/actions/workflows/tests.yml)
 $ dotnet test
-
 ```
 
 Then simply start your local app instance by running!
