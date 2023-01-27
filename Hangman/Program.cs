@@ -38,9 +38,24 @@ namespace Hangman
                         Console.Write(letter + " ");
                     }
                     Console.Write("\nGuess a letter: ");
-                    char letterGuessed = Console.ReadLine()[0];
-                    Console.Clear();
 
+
+                    
+                    string userInput = Console.ReadLine();
+                    
+                    if (string.IsNullOrEmpty(userInput) || userInput.Length > 1 || userInput.Any(c => !char.IsLetter(c)))
+                    {
+                        Intro.GameIntroduction();
+                        HangManPrinter.WriteHangMan(amountOfTimesWrong);
+                        SetUnderLines.PrintLines(randomWord);
+                        Console.WriteLine("\nInvalid input, try again.");
+                        continue;
+                    }
+                    
+                    char letterGuessed = char.Parse(userInput);
+
+                    
+                    Console.Clear();
 
                     if (currentLettersGuessed.Contains(letterGuessed))
                     {
