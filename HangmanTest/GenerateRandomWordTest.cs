@@ -16,7 +16,7 @@ namespace GenerateRandomWordTest
         [Fact]
         public void GetaWordTest()
         {
-            string[] result = { "pizza", "kebab", "paperplane", "arrow", "abandon", "firealarm" };
+            string[] result = { "pizza", "kebab", "paperplane", "arrow", "appel", "abandon", "firealarm" };
             string randomWord = WordGenerator.GetaWord();
 
             Assert.Contains(randomWord, result);
