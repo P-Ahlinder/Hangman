@@ -46,9 +46,12 @@ namespace Hangman
                     if (string.IsNullOrEmpty(userInput) || userInput.Length > 1 || userInput.Any(c => !char.IsLetter(c)))
                     {
                         Intro.GameIntroduction();
-                        HangManPrinter.WriteHangMan(amountOfTimesWrong);
+                        HangManPrinter.WriteHangMan(amountOfTimesWrong)
+                        currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
+                        Console.Write("\r\n");
                         SetUnderLines.PrintLines(randomWord);
-                        Console.WriteLine("\nInvalid input, try again.");
+                        Console.Write("\r\n");
+                        Console.WriteLine("Invalid input, try again.");
                         continue;
                     }
                     
