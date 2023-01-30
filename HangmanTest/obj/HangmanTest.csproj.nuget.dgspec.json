@@ -11,7 +11,7 @@
         "projectName": "HangmanTest",
         "projectPath": "C:\\Users\\ahlin\\source\\repos\\P-Ahlinder\\hangman\\HangmanTest\\HangmanTest.csproj",
         "packagesPath": "C:\\Users\\ahlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahlin\\Source\\Repos\\P-Ahlinder\\Hangman\\HangmanTest\\obj\\",
+        "outputPath": "C:\\Users\\ahlin\\source\\repos\\P-Ahlinder\\hangman\\HangmanTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,7 +97,7 @@
         "projectName": "Hangman",
         "projectPath": "C:\\Users\\ahlin\\source\\repos\\P-Ahlinder\\hangman\\Hangman\\Hangman.csproj",
         "packagesPath": "C:\\Users\\ahlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahlin\\Source\\Repos\\P-Ahlinder\\Hangman\\Hangman\\obj\\",
+        "outputPath": "C:\\Users\\ahlin\\source\\repos\\P-Ahlinder\\hangman\\Hangman\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
