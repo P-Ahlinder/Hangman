@@ -1,5 +1,7 @@
 ﻿namespace Introdution
 {
+    // This class is made to save up some time, by not re-writing the same code over and over. Used in several places in the main program.
+   
     internal class Intro
     {
         public static void GameIntroduction()

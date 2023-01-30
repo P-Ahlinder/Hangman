@@ -13,7 +13,7 @@ namespace PrintLinesTest
         {
             this.output = output;
         }
-
+        // Simple test, just to see how the PrintLines working with different words from the list.
         [Fact]
         public void PrintLineTest()
         {
