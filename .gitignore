@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Hangman-project/FileContentIndex
+/Hangman/obj/Debug/net7.0/Hangman.GeneratedMSBuildEditorConfig.editorconfig
+/HangmanTest/obj/Debug/net7.0/HangmanTest.assets.cache
+/HangmanTest/obj/Debug/net7.0/HangmanTest.csproj.AssemblyReference.cache
+/HangmanTest/obj/Debug/net7.0/HangmanTest.GeneratedMSBuildEditorConfig.editorconfig
