@@ -9,6 +9,8 @@ The task is to build a simple console app or blazor project to display basic kno
 
 ## 💿 Running the app locally:
 
+Download and open in Visual Studio 2022
+
 Start with cloning this repo on your local machine:
 
 ```sh
@@ -19,12 +21,16 @@ $ cd Hangman
 In order to run tests simply run
 
 ```py
+Run all tests (ctrl + R, A)
+or
 $ dotnet test
 ```
 
 Then simply start your local app instance by running!
 
 ```sh
+$ Start debugging (green triangle)
+or
 $ dotnet run
 ```
 
