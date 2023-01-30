@@ -21,7 +21,7 @@ $ cd Hangman
 In order to run tests simply run
 
 ```py
-Run all tests (ctrl + R, A)
+$ run all tests (ctrl + R, A)
 or
 $ dotnet test
 ```
@@ -29,7 +29,7 @@ $ dotnet test
 Then simply start your local app instance by running!
 
 ```sh
-$ Start debugging (green triangle)
+$ start debugging (green triangle)
 or
 $ dotnet run
 ```
