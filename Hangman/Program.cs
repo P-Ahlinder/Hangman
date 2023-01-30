@@ -3,7 +3,6 @@ using PrintRightWords;
 using HangManWriter;
 using GenerateRandomWord;
 using Introdution;
-using System.Text.RegularExpressions;
 
 namespace Hangman
 {
@@ -11,8 +10,12 @@ namespace Hangman
     {
         static void Main(string[] args)
         {
+            //Eveything is wrapped in a do while loop.
             do
-            {
+            {   
+                // The first section prints the game and tells the player what the game is about. 
+                // It also creates a random word that is hidden from the player from the class WordGenerator
+
                 Intro.GameIntroduction();
                 HangManPrinter.WriteHangMan();
                 Console.WriteLine();
@@ -28,20 +31,28 @@ namespace Hangman
                 List<char> currentLettersGuessed = new List<char>();
                 int currentLettersRight = 0;
 
+                // This is a while loop that checks how many times the player is wrong, if the player exceeds 7 wrong answers he/she loses.
 
                 while (amountOfTimesWrong != 7 && currentLettersRight != lengthOfWordToGuess)
                 {
+                    // Here we print out all the guessed letters 
+
                     Console.Write("\nGuesses so far: ");
 
                     foreach (char letter in currentLettersGuessed)
                     {
                         Console.Write(letter + " ");
                     }
+
+                    // We're asking the player to insert a radom letter
+
                     Console.Write("\nGuess a letter: ");
 
-
-                    
+              
                     string userInput = Console.ReadLine();
+
+                    // Heres an if statement that checks whether the user enters a valid character or not.
+                    // If the User does enter a valid character the program carrys on to the next if satement otherwise it throws an error message. 
                     
                     if (string.IsNullOrEmpty(userInput) || userInput.Length > 1 || userInput.Any(c => !char.IsLetter(c)))
                     {
@@ -50,7 +61,7 @@ namespace Hangman
                         currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
                         SetUnderLines.PrintLines(randomWord);
-                        Console.Write("\r\n");
+                        Console.Write("\r");
                         Console.WriteLine("Invalid input, try again.");
                         continue;
                     }
@@ -104,11 +115,13 @@ namespace Hangman
                 }
                 if (amountOfTimesWrong == 7)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\r\nGAME OVER!!");
+                    Console.ResetColor();
                     Console.WriteLine("Wanna play again? [yay | nay]");
                 }
                 else
-                {
+                {   
                     Console.WriteLine("\r\nYOU WON. GZ!!");
                     Console.WriteLine("Wanna play again? [yay | nay]");
                 }

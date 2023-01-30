@@ -1,6 +1,6 @@
 namespace PrintRightWords
 {
-
+    // This class is keeping track of the users right and wrong guesses. 
     public class PrintRightWord
     {
         public static int printWord(List<char> guessedLetters, String randomWord)

@@ -16,18 +16,21 @@ namespace GenerateRandomWordTest
         [Fact]
         public void GetaWordTest()
         {
-            string[] result = { "pizza", "kebab", "paperplane", "arrow", "appel", "abandon", "firealarm" };
+            WordGenerator wordGenerator = new WordGenerator();
+
             string randomWord = WordGenerator.GetaWord();
 
-            Assert.Contains(randomWord, result);
+            Assert.Contains(randomWord, wordGenerator.CreateRandomWords);
             output.WriteLine("Randomized word is: " + randomWord);
 
 
             output.WriteLine("Randomized word generated from array:");
-            foreach (var item in result)
-            {
-               output.WriteLine(item);
-            }
+
+             foreach (string item in wordGenerator.CreateRandomWords)
+             {
+                output.WriteLine(item);
+             }
+
         }
     }
 }
