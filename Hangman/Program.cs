@@ -46,7 +46,7 @@ namespace Hangman
                     if (string.IsNullOrEmpty(userInput) || userInput.Length > 1 || userInput.Any(c => !char.IsLetter(c)))
                     {
                         Intro.GameIntroduction();
-                        HangManPrinter.WriteHangMan(amountOfTimesWrong)
+                        HangManPrinter.WriteHangMan(amountOfTimesWrong);
                         currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
                         SetUnderLines.PrintLines(randomWord);
