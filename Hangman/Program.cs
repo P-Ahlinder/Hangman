@@ -62,8 +62,8 @@ namespace Hangman
                         currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                         Console.Write("\r\n");
                         SetUnderLines.PrintLines(randomWord);
-                        Console.Write("\r");
-                        Console.WriteLine("Invalid input, try again.");
+                        Console.Write("\r\n");
+                        Console.Write("Invalid input, try again.");
                         continue;
                     }
                     // Here we are clearing the console after each loop so it looks like the program is updating itself.
