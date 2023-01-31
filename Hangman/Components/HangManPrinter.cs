@@ -5,6 +5,7 @@ namespace HangManWriter
     {
         public static void WriteHangMan(int wrong = 0)
         {
+
             if (wrong == 7)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -17,13 +18,15 @@ namespace HangManWriter
                 Console.ResetColor();
             }
             if (wrong == 6)
-            { 
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
                 Console.WriteLine(" /|\\     |");
                 Console.WriteLine(" / \\     |");
                 Console.WriteLine("==========");
+                Console.ResetColor();
             }
             if (wrong == 5)
             {

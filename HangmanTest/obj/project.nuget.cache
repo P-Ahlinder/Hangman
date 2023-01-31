@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "soDRQW1ylKe60lY1QhgL2fqm0YCwqeIDEyO28jMEi+W7ZG+9BbOAB8jxaQzxuntd9p/klJcYcZaYnZYuM2cQag==",
+  "dgSpecHash": "6cBiQ5CjZE2dz32wdf5d1kOv6rynzcFuX3QIsCJjKM4Z3TDw+3Igy/pJZus5T5ruRc7M3UXB7BB/NeWYDBmKxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahlin\\source\\repos\\P-Ahlinder\\hangman\\HangmanTest\\HangmanTest.csproj",
+  "projectFilePath": "C:\\Users\\ahlin\\Desktop\\GH Clone\\HangmanTest\\HangmanTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahlin\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ahlin\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

@@ -58,3 +58,18 @@ C:\Users\ahlin\source\repos\P-Ahlinder\hangman\hangman\obj\Debug\net7.0\refint\H
 C:\Users\ahlin\source\repos\P-Ahlinder\hangman\hangman\obj\Debug\net7.0\Hangman.pdb
 C:\Users\ahlin\source\repos\P-Ahlinder\hangman\hangman\obj\Debug\net7.0\Hangman.genruntimeconfig.cache
 C:\Users\ahlin\source\repos\P-Ahlinder\hangman\hangman\obj\Debug\net7.0\ref\Hangman.dll
+C:\Users\ahlin\Desktop\GH Clone\Hangman\bin\Debug\net7.0\Hangman.exe
+C:\Users\ahlin\Desktop\GH Clone\Hangman\bin\Debug\net7.0\Hangman.deps.json
+C:\Users\ahlin\Desktop\GH Clone\Hangman\bin\Debug\net7.0\Hangman.runtimeconfig.json
+C:\Users\ahlin\Desktop\GH Clone\Hangman\bin\Debug\net7.0\Hangman.dll
+C:\Users\ahlin\Desktop\GH Clone\Hangman\bin\Debug\net7.0\Hangman.pdb
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.csproj.AssemblyReference.cache
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.AssemblyInfo.cs
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.dll
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\refint\Hangman.dll
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.pdb
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\Hangman.genruntimeconfig.cache
+C:\Users\ahlin\Desktop\GH Clone\Hangman\obj\Debug\net7.0\ref\Hangman.dll
