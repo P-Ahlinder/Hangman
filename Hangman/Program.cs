@@ -50,7 +50,7 @@ namespace Hangman
                     Console.Write("\nGuess a letter: ");
 
               
-                    string userInput = Console.ReadLine();
+                    string userInput = Console.ReadLine().ToLower();
 
                     // Heres an if statement that checks whether the user enters a valid character or not.
                     // If the User does enter a valid character the program carrys on to the next if satement otherwise it throws an error message. 
