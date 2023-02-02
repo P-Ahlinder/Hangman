@@ -39,7 +39,7 @@ namespace Hangman
 
                 while (amountOfTimesWrong != 7 && currentLettersRight != lengthOfWordToGuess)
                 {
-                    Console.WriteLine(amountOfTimesWrong);
+
                     // Here we print out all the guessed letters.
 
                     Console.Write("\nGuesses so far: ");
