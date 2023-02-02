@@ -28,14 +28,18 @@ namespace Hangman
                 Console.Write("    <---- Secret word here");
                 Console.WriteLine();
                 int lengthOfWordToGuess = randomWord.Length;
-                int amountOfTimesWrong = 0;
+                
                 List<char> currentLettersGuessed = new List<char>();
+                int amountOfTimesWrong = 0;
                 int currentLettersRight = 0;
+
+                
 
                 // This is a while loop that checks how many times the player is wrong, if the player exceeds 7 wrong answers he/she loses.
 
                 while (amountOfTimesWrong != 7 && currentLettersRight != lengthOfWordToGuess)
                 {
+                    Console.WriteLine(amountOfTimesWrong);
                     // Here we print out all the guessed letters.
 
                     Console.Write("\nGuesses so far: ");
@@ -110,8 +114,8 @@ namespace Hangman
                         else
                         {
                             Intro.GameIntroduction();
-                            HangManPrinter.WriteHangMan(amountOfTimesWrong);
                             amountOfTimesWrong += 1;
+                            HangManPrinter.WriteHangMan(amountOfTimesWrong);
                             currentLettersGuessed.Add(letterGuessed);
                             currentLettersRight = PrintRightWord.printWord(currentLettersGuessed, randomWord);
                             Console.Write("\r\n");

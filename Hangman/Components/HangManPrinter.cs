@@ -19,25 +19,16 @@ namespace HangManWriter
             }
             if (wrong == 6)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                
                 Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
                 Console.WriteLine(" /|\\     |");
-                Console.WriteLine(" / \\     |");
+                Console.WriteLine(" /       |");
                 Console.WriteLine("==========");
-                Console.ResetColor();
+               
             }
             if (wrong == 5)
-            {
-                Console.WriteLine("  +------+");
-                Console.WriteLine("  |      |");
-                Console.WriteLine("  o      |");
-                Console.WriteLine(" /|      |");
-                Console.WriteLine(" / \\     |");
-                Console.WriteLine("==========");
-            }
-            if (wrong == 4)
             {
                 Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
@@ -46,7 +37,7 @@ namespace HangManWriter
                 Console.WriteLine(" /       |");
                 Console.WriteLine("==========");
             }
-            if (wrong == 3)
+            if (wrong == 4)
             {
                 Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
@@ -55,12 +46,21 @@ namespace HangManWriter
                 Console.WriteLine("         |");
                 Console.WriteLine("==========");
             }
-            if (wrong == 2)
+            if (wrong == 3)
             {
                 Console.WriteLine("  +------+");
                 Console.WriteLine("  |      |");
                 Console.WriteLine("  o      |");
                 Console.WriteLine("  |      |");
+                Console.WriteLine("         |");
+                Console.WriteLine("==========");
+            }
+            if (wrong == 2)
+            {
+                Console.WriteLine("  +------+");
+                Console.WriteLine("  |      |");
+                Console.WriteLine("  o      |");
+                Console.WriteLine("         |");
                 Console.WriteLine("         |");
                 Console.WriteLine("==========");
             }
